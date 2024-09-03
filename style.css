@@ -1,0 +1,57 @@
+.bd {
+    background-image: url('https://img.freepik.com/premium-photo/couple-love-beautiful-desktop-background_212944-31581.jpg');
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.head {
+    display: flex;
+    align-items: center; /* Align items vertically in the center */
+    justify-content: center; /* Center the content horizontally */
+    color: black;
+    padding: 20px;
+    border-radius: 10px; /* Optional: rounded corners for the container */
+}
+
+.head h1 {
+    font-style: italic;
+}
+.img img {
+    width: 50px; /* Adjust the size of the image */
+    height: auto; /* Maintain aspect ratio */
+    margin: 0 20px; /* Space between the image and the text */
+}
+.cor {
+    position: absolute; /* Positioning relative to the nearest positioned ancestor or the viewport */
+    bottom: 20px; /* Distance from the bottom */
+    right: 20px; /* Distance from the right */
+    text-align: center;
+    padding-bottom: 25vh;
+    padding-right: 75vh;
+}
+
+.cor h2 {
+    color: white; /* Text color */
+    margin-bottom: 10px; /* Space between text and image */
+}
+
+.image{
+    display: flex; /* Display each image in a new line */
+    flex-direction: row;
+}
+
+.cr1 img, .cr2 img {
+    width: 50vh; /* Set a small width for images */
+    height: 50vh; /* Maintain aspect ratio */
+    margin-top: 5px; /* Space between images */
+    
+}
+.cor h2 {
+    color: black;
+}
